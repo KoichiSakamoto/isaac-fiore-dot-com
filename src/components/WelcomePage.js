@@ -1,9 +1,11 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 
-class WelcomePage extends Component {
+export default class WelcomePage extends Component {
   render() {
+    return (
     <div>
       Welcome to my Website!
     </div>
+  )
   }
 }
