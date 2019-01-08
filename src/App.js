@@ -21,12 +21,24 @@ class App extends Component {
     })
   }
 
+  renderContent = () => {
+    switch(this.state.display) {
+      case "resume":
+        return <Resume />
+        break
+      case "projects":
+        return <div> herpderp u havent made this component yet </div>
+        break
+      default:
+        return <About />
+    }
+  }
+
   render() {
     return (
       <div className="App">
         <MyName />
-        <div> {this.state.display} </div>
-        <About />
+        {this.renderContent()}
         <NavigationBar changeDisplay={this.changeDisplay}/>
       </div>
     );
