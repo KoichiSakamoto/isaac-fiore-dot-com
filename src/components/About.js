@@ -13,7 +13,7 @@ export default function About(props) {
       Welcome! My name is Isaac and I'm a NYC-based Software Developer.
       I've been programming since high school, and I figured it was about time
       that I carved out my own little slice of the internet, so welcome to my
-      humble little website. This site is available on Github, so if you want
+      humble little website. This site is available on Github <a href="https://github.com/KoichiSakamoto/isaac-fiore-dot-com">here</a>, so if you want
       to make your own website that looks exactly like this one, feel free to
       pull the repository and use it yourself. Make sure to shoot me a message if
       you do, it'll make me pretty happy ˆ_ˆ.
@@ -53,7 +53,7 @@ export default function About(props) {
         <FontAwesomeIcon icon={faAngellist} size="3x" />
       </a>
       <br />
-      Alternatively, you can email me <a href="mailto:isaac.fiore@mail.mcgill.ca"> here. </a> 
+      Alternatively, you can email me <a href="mailto:isaac.fiore@mail.mcgill.ca"> here. </a>
       </section>
 
     </main>
