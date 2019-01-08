@@ -1,4 +1,8 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithubSquare, faMedium, faAngellist } from '@fortawesome/free-brands-svg-icons'
+
+
 
 export default function About(props) {
   return (
@@ -35,7 +39,10 @@ export default function About(props) {
 
       <section>
       Find me on the following websites:
-      
+      <FontAwesomeIcon icon={faLinkedin} />
+      <FontAwesomeIcon icon={faGithubSquare} />
+      <FontAwesomeIcon icon={faMedium} />
+      <FontAwesomeIcon icon={faAngellist} />
 
       </section>
 
