@@ -27,6 +27,17 @@
   margin-right: 0.5%;
 }
 
+.nav-section{
+  display: inline;
+}
+
+.nav-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
