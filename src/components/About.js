@@ -39,11 +39,21 @@ export default function About(props) {
 
       <section>
       Find me on the following websites:
-      <FontAwesomeIcon icon={faLinkedin} />
-      <FontAwesomeIcon icon={faGithubSquare} />
-      <FontAwesomeIcon icon={faMedium} />
-      <FontAwesomeIcon icon={faAngellist} />
-
+      <br />
+      <a className="social-icon" href="https://www.linkedin.com/in/isaac-fiore-7b657514a/">
+        <FontAwesomeIcon icon={faLinkedin} size="3x" />
+      </a>
+      <a className="social-icon" href="https://github.com/KoichiSakamoto" >
+        <FontAwesomeIcon icon={faGithubSquare} size="3x" />
+      </a>
+      <a className="social-icon" href="https://medium.com/@isaackoichi" >
+        <FontAwesomeIcon icon={faMedium} size="3x" />
+      </a>
+      <a className="social-icon" href="https://angel.co/isaac-fiore">
+        <FontAwesomeIcon icon={faAngellist} size="3x" />
+      </a>
+      <br />
+      Alternatively, you can email me <a href="mailto:isaac.fiore@mail.mcgill.ca"> here. </a> 
       </section>
 
     </main>
