@@ -4,6 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import MyName from './components/MyName'
 import Resume from './components/Resume'
+import Projects from './components/Projects'
 import About from './components/About'
 import NavigationBar from './components/NavigationBar'
 
@@ -27,7 +28,7 @@ class App extends Component {
         return <Resume />
         break
       case "projects":
-        return <div> herpderp u havent made this component yet </div>
+        return <Projects />
         break
       default:
         return <About />
