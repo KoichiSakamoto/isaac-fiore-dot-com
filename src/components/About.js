@@ -38,6 +38,10 @@ export default function About(props) {
       <br />
 
       <section>
+      Outside of coding, my hobbies include music production, working out, cooking, mixology, growing plants, and gaming. I love trying out new things, so in all likelihood this list is only going to get longer!
+      </section>
+
+      <section>
       Find me on the following websites:
       <br />
       <a className="social-icon" href="https://www.linkedin.com/in/isaac-fiore-7b657514a/">
